@@ -1,0 +1,14 @@
+name: LockRo11en
+version: '${project.version}'
+main: com.somemone.lockro11en.Locks
+api-version: 1.18
+authors: [ Somemone ]
+description: Locks chests as per Ro11en's requests
+
+commands:
+  lock:
+    usage: /lock
+    description: Locks an unclaimed chest
+  removelock:
+    usage: /removelock
+    description: Removes a lock on your chest3
